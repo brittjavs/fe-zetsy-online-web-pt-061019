@@ -1,14 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 @font-face {
-  font-family: 'Baskerville'; 
-  src: url(../fonts/Baskerville.ttc);
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
 }
 
 /*////////// Global Styles //////////*/
 
 * {
-  padding: 0;
+	padding: 0;
 	margin: 0;
 }
 
@@ -52,17 +52,25 @@ p  {
 /*////////// Section Styles //////////*/
 
 header a {
-  color: rgb(152,173,166);
-  text-decoration: none;
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
 }
 
 #featured img {
-  border: 5px rgb(152,173,166) solid;
+	border: 5px rgb(152,173,166) solid;
 }
 
 #featured a {
 	color: #1783bb;
 	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
 }
 
 #press {
@@ -72,6 +80,10 @@ header a {
 #press img {
 	border: 5px #ccc solid;
 	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
 }
 
 footer {
